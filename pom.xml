@@ -24,14 +24,17 @@
   	</plugins>
   </build>
 <dependencies>
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
 		</dependency>
-
-         <!-- Cucumber -->   
+         <!-- Cucumber --> 
+		<dependency>
+		    <groupId>commons-net</groupId>
+		    <artifactId>commons-net</artifactId>
+		    <version>3.5</version>
+		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
@@ -73,12 +76,17 @@
 		</dependency>
 		
 		<!--MySQL  -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java-commercial</artifactId>
-			<version>5.1.12</version>
-		</dependency>
-		
+<!-- 		<dependency> -->
+<!-- 			<groupId>mysql</groupId> -->
+<!-- 			<artifactId>mysql-connector-java-commercial</artifactId> -->
+<!-- 			<version>5.1.12</version> -->
+<!-- 		</dependency> -->
+		<!-- http://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+			<dependency>
+			    <groupId>mysql</groupId>
+			    <artifactId>mysql-connector-java</artifactId>
+			    <version>6.0.2</version>
+			</dependency>
 		<!-- Java Mail -->
 		<dependency>
 			<groupId>javax.mail</groupId>
@@ -99,8 +107,8 @@
 		<url>http://stash.dev.ts/projects/ers/repos/ers-std-cucumber-automation/browse</url>
 	</scm>
 	<properties>
-		<targetEnvironment>10.10.4.65</targetEnvironment>
-		<customer>ng_glo</customer>
+		<targetEnvironment>10.10.4.19</targetEnvironment>
+		<customer>ers_std</customer>
 	</properties>
 	<name>ERS Standard</name>
 	<url>http://stash.dev.ts/projects/ERS</url>
