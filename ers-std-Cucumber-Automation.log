@@ -1,0 +1,112 @@
+2016-03-10 12:22:33,473 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] =======================>>>>>>>>>>>>Perform String Base VOT<<<<<<<<<<<===================== 
+2016-03-10 12:22:33,475 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] resellerIdFromProp: DIST1 
+2016-03-10 12:22:33,475 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] resellerMsisdnFromProp: 260961010000 
+2016-03-10 12:22:33,475 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] voucherDenominationFromProp: 1 
+2016-03-10 12:22:33,475 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] shortCodeFromProp: 411 
+2016-03-10 12:22:33,475 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] menuOptionFromProp: 2 
+2016-03-10 12:22:33,475 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] pinFromProp: 2015 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] confirmationFromProp: 1 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] message_from_prop: You have received voucher 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] logComponentFromProp: kannel/smsbox-access.log 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] LogLineFromProp: 4 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] VoucherPriceFromProp: 10 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] VoucherCountFromProp: 1 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] SmsMessageFromProp: You have transferred Voucher 
+2016-03-10 12:22:33,476 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] voucherOptionFromProp: 1 
+2016-03-10 12:22:33,477 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] InvalidHierarchy: You are not allowed to transfer to the specified receiver 
+2016-03-10 12:22:33,477 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] ContractViolation: an amount outside the margins of the contract 
+2016-03-10 12:22:33,477 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Invalidpin: pin 
+2016-03-10 12:22:33,477 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] UnRegisterUserCreditTrasnferViolation: Receiver is not active 
+2016-03-10 12:22:33,477 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] InvalidR2RTransfer: You are not allowed to transfer to the specified receiver 
+2016-03-10 12:22:33,477 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] InvalidR2RTransfer: This specific product is not available 
+2016-03-10 12:22:33,478 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] InvalidR2RTransfer: Product is out of stock 
+2016-03-10 12:22:33,478 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] ConfirmationFromProp: 1 
+2016-03-10 12:22:33,479 INFO c.s.e.q.c.I.C.cucumberCommon [main] Generated Session ID: 700344613 
+2016-03-10 12:22:33,479 INFO c.s.e.q.c.I.C.cucumberCommon [main] Command Executing: curl "http://10.10.4.186:8680/cc/CC?src=260961010000&sessionid=700344613&cmd=411" 
+2016-03-10 12:22:33,479 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Confirmation is required 
+2016-03-10 12:22:33,479 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] VOT.java: curl "http://10.10.4.186:8680/cc/CC?src=260961010000&sessionid=700344613&cmd=411&p1=2&p2=1&p3=2015&p4=1" 
+2016-03-10 12:22:33,479 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] *****************Reseller Balance Fetched before transaction**************** 
+2016-03-10 12:22:33,480 INFO c.s.e.q.c.S.sqlResultSets [main] 
+ Balance Amount from DB for reseller ID DIST1 
+2016-03-10 12:22:33,480 INFO c.s.e.q.c.S.dataBaseConnection [main] DBName: accounts 
+2016-03-10 12:22:33,480 INFO c.s.e.q.c.S.dataBaseConnection [main] DBUser: refill 
+2016-03-10 12:22:33,480 INFO c.s.e.q.c.S.dataBaseConnection [main] DB Password: refill 
+2016-03-10 12:22:33,480 INFO c.s.e.q.c.S.dataBaseConnection [main] Server: 10.10.4.186 
+2016-03-10 12:22:33,480 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check start: 10.10.4.186 
+2016-03-10 12:22:33,481 INFO c.s.e.q.c.I.C.cucumberCommon [main] Sending Ping Request to 10.10.4.186 
+2016-03-10 12:22:33,890 INFO c.s.e.q.c.I.C.cucumberCommon [main] Host is reachable and Connection established to the machine 10.10.4.186 
+2016-03-10 12:22:33,890 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check end: 10.10.4.186 
+2016-03-10 12:22:36,806 INFO c.s.e.q.c.S.sqlResultSets [main] Balance from Database: 318770 
+2016-03-10 12:22:36,806 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Reseller current balance before transaction: 318770 
+2016-03-10 12:22:36,806 INFO c.s.e.q.c.S.dataBaseConnection [main] DBName: Refill 
+2016-03-10 12:22:36,806 INFO c.s.e.q.c.S.dataBaseConnection [main] DBUser: refill 
+2016-03-10 12:22:36,806 INFO c.s.e.q.c.S.dataBaseConnection [main] DB Password: refill 
+2016-03-10 12:22:36,806 INFO c.s.e.q.c.S.dataBaseConnection [main] Server: 10.10.4.186 
+2016-03-10 12:22:36,806 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check start: 10.10.4.186 
+2016-03-10 12:22:36,807 INFO c.s.e.q.c.I.C.cucumberCommon [main] Sending Ping Request to 10.10.4.186 
+2016-03-10 12:22:37,153 INFO c.s.e.q.c.I.C.cucumberCommon [main] Host is reachable and Connection established to the machine 10.10.4.186 
+2016-03-10 12:22:37,153 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check end: 10.10.4.186 
+2016-03-10 12:22:39,420 INFO c.s.e.q.c.S.sqlResultSets [main] select Count(*) as totalCount from dwa_items where `status` = '1' and class_key=8	 
+2016-03-10 12:22:39,828 INFO c.s.e.q.c.S.sqlResultSets [main] Query: select Count(*) as totalCount from dwa_items where `status` = '1' and class_key=8	 
+2016-03-10 12:22:39,829 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Voucher stock before sale=5 
+2016-03-10 12:22:39,829 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] ===========>>>>Create SSH Connection and perform the transaction 
+2016-03-10 12:22:42,499 INFO c.s.e.q.c.I.C.cucumberCommon [main] Connected to: 10.10.4.186 
+2016-03-10 12:22:42,500 INFO c.s.e.q.c.I.C.cucumberCommon [main] Reading result from channel :.............. 
+2016-03-10 12:22:44,843 INFO c.s.e.q.c.I.C.cucumberCommon [main] Result of createChannel: USSDGW0100You have received voucher of 10 ZMW, to recharge dial 9990000700#. Serial:000500112. Ref:2016031012524218601000056 
+2016-03-10 12:22:44,844 INFO c.s.e.q.c.I.C.cucumberCommon [main] channel.getExitStatus() 0
+ 
+2016-03-10 12:22:44,844 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] You have received voucher...true 
+2016-03-10 12:22:44,844 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] USSD reponse and custom response is verfied: true 
+2016-03-10 12:22:44,845 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] 
+=====================Transaction Status===========================
+ 
+2016-03-10 12:22:44,846 INFO c.s.e.q.c.S.sqlResultSets [main] 
+ Balance Amount from DB for reseller ID DIST1 
+2016-03-10 12:22:44,847 INFO c.s.e.q.c.S.dataBaseConnection [main] DBName: accounts 
+2016-03-10 12:22:44,847 INFO c.s.e.q.c.S.dataBaseConnection [main] DBUser: refill 
+2016-03-10 12:22:44,847 INFO c.s.e.q.c.S.dataBaseConnection [main] DB Password: refill 
+2016-03-10 12:22:44,847 INFO c.s.e.q.c.S.dataBaseConnection [main] Server: 10.10.4.186 
+2016-03-10 12:22:44,847 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check start: 10.10.4.186 
+2016-03-10 12:22:44,847 INFO c.s.e.q.c.I.C.cucumberCommon [main] Sending Ping Request to 10.10.4.186 
+2016-03-10 12:22:45,199 INFO c.s.e.q.c.I.C.cucumberCommon [main] Host is reachable and Connection established to the machine 10.10.4.186 
+2016-03-10 12:22:45,199 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check end: 10.10.4.186 
+2016-03-10 12:22:47,817 INFO c.s.e.q.c.S.sqlResultSets [main] Balance from Database: 318760 
+2016-03-10 12:22:47,817 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] 
+Transaction is Successfull  
+2016-03-10 12:22:47,817 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Reseller Balance After Successfull Transaction: 318760 
+2016-03-10 12:22:47,817 INFO c.s.e.q.c.S.dataBaseConnection [main] DBName: Refill 
+2016-03-10 12:22:47,817 INFO c.s.e.q.c.S.dataBaseConnection [main] DBUser: refill 
+2016-03-10 12:22:47,818 INFO c.s.e.q.c.S.dataBaseConnection [main] DB Password: refill 
+2016-03-10 12:22:47,818 INFO c.s.e.q.c.S.dataBaseConnection [main] Server: 10.10.4.186 
+2016-03-10 12:22:47,818 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check start: 10.10.4.186 
+2016-03-10 12:22:47,818 INFO c.s.e.q.c.I.C.cucumberCommon [main] Sending Ping Request to 10.10.4.186 
+2016-03-10 12:22:48,226 INFO c.s.e.q.c.I.C.cucumberCommon [main] Host is reachable and Connection established to the machine 10.10.4.186 
+2016-03-10 12:22:48,226 INFO c.s.e.q.c.I.C.cucumberCommon [main] IP ping check end: 10.10.4.186 
+2016-03-10 12:22:50,390 INFO c.s.e.q.c.S.sqlResultSets [main] select Count(*) as totalCount from dwa_items where `status` = '1' and class_key=8	 
+2016-03-10 12:22:50,788 INFO c.s.e.q.c.S.sqlResultSets [main] Query: select Count(*) as totalCount from dwa_items where `status` = '1' and class_key=8	 
+2016-03-10 12:22:50,788 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] 
+Transaction is Successfull  
+2016-03-10 12:22:50,788 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Reseller Voucher After Successfull Transaction: 4 
+2016-03-10 12:22:50,788 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] ===========>>>>Create SSH Connection for log command 
+2016-03-10 12:22:50,788 INFO c.s.e.q.c.I.C.cucumberCommon [main] readlog command: tail -n 4 /var/seamless/log/kannel/smsbox-access.log	 
+2016-03-10 12:22:53,406 INFO c.s.e.q.c.I.C.cucumberCommon [main] Connected to: 10.10.4.186 
+2016-03-10 12:22:53,406 INFO c.s.e.q.c.I.C.cucumberCommon [main] Reading result from channel :.............. 
+2016-03-10 12:22:54,164 INFO c.s.e.q.c.I.C.cucumberCommon [main] Result of createChannel: MTN Zambia : (NO_REGION) ERS Details for 2016-03-09 is TRN: 0, USED By: 0, AMT: 0.00000 ZMK
+'
+2016-03-10 12:52:42 send-SMS request failed - Number(s) has/have been denied by white- and/or black-lists.
+2016-03-10 12:52:42 send-SMS request added - sender:ers:888 127.0.0.1 target:260961010000 request: 'You have transferred Voucher(000500112) worth 10 ZMW, Your remaining balance is 318760.00 ZMW'
+ 
+2016-03-10 12:22:54,165 INFO c.s.e.q.c.I.C.cucumberCommon [main] channel.getExitStatus() 0
+ 
+2016-03-10 12:22:54,165 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] commonForSMS.Result...USSDGW0100You have received voucher of 10 ZMW, to recharge dial 9990000700#. Serial:000500112. Ref:2016031012524218601000056 
+2016-03-10 12:22:54,168 INFO c.s.e.q.c.I.C.cucumberCommon [main] SSH Connection closed 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Notification message verified from logs 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] remainingBalManualCalculated: 318760 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] remainingVoucherCountManualCalculated: 4 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] remainingBalManualCalculated, amountFromDBAfterTran318760........318760 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Balance is deducted 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] remainingVoucherCountManualCalculated, VoucherCountFromDBAfterTran: 4........4 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] Vouhcer is deducted 
+2016-03-10 12:22:54,169 INFO c.s.e.q.c.I.U.voucherOverTerminal [main] 
+USSDGW0100You have received voucher of 10 ZMW, to recharge dial 9990000700#. Serial:000500112. Ref:2016031012524218601000056 
+2016-03-10 12:22:54,170 INFO c.s.e.q.c.I.C.cucumberCommon [main] SSH Connection closed 

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.039 sec <<< FAILURE!
+When I Perform to integrate my automation with zephyr(Scenario: User preforms to integrate with zephyr)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.RuntimeException: Server returned HTTP response code: 403 for URL: http://192.168.99.100:32768/flex/services/rest/latest/execution/2
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.AuthGet(AtlassianIntegration.java:131)
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.hitCurl(AtlassianIntegration.java:35)
+	at ✽.When I Perform to integrate my automation with zephyr(src/test/resources/com/resources/features/ers-std/USSD/AtlassianIntegration.feature:5)
+
+Scenario: User preforms to integrate with zephyr  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.RuntimeException: Server returned HTTP response code: 403 for URL: http://192.168.99.100:32768/flex/services/rest/latest/execution/2
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.AuthGet(AtlassianIntegration.java:131)
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.hitCurl(AtlassianIntegration.java:35)
+	at ✽.When I Perform to integrate my automation with zephyr(src/test/resources/com/resources/features/ers-std/USSD/AtlassianIntegration.feature:5)
+

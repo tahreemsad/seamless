@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="runTest" time="0.016" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @integrate"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.11-b03"/>
+    <property name="user.country.format" value="PK"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ayeshahassan/git/ers-std-cucumber-automation"/>
+    <property name="java.runtime.version" value="1.8.0_11-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/24/bdhstz955vl_167mfn5d29p00000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/ayeshahassan/Downloads/apache-maven-3.2.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ayeshahassan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ayeshahassan"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tahreem"/>
+    <property name="java.class.path" value="/Users/ayeshahassan/Downloads/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @integrate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_11"/>
+    <property name="java.ext.dirs" value="/Users/ayeshahassan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/ayeshahassan/Downloads/apache-maven-3.2.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: User preforms to integrate with zephyr" name="When I Perform to integrate my automation with zephyr" time="0.006">
+    <error message="Server returned HTTP response code: 403 for URL: http://192.168.99.100:32768/flex/services/rest/latest/execution/2" type="java.lang.RuntimeException">java.lang.RuntimeException: Server returned HTTP response code: 403 for URL: http://192.168.99.100:32768/flex/services/rest/latest/execution/2
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.AuthGet(AtlassianIntegration.java:131)
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.hitCurl(AtlassianIntegration.java:35)
+	at ✽.When I Perform to integrate my automation with zephyr(src/test/resources/com/resources/features/ers-std/USSD/AtlassianIntegration.feature:5)
+</error>
+    <system-out>Feature: Request to integrate atlassian with zephyr
+Customer: ers_std
+Loaded Config: src/test/java/com/seamless/ers/qa/cucumber/Properties/BasicConfig/config_ers_std.properties
+Customer: ers_std
+src/test/java/com/seamless/ers/qa/cucumber/Properties/USSD/ussdapp_ers_std.properties
+Connecting To Jira/Zephyr
+URL : http://192.168.99.100:32768/rest/api/2/issue/TS-2
+{&quot;expand&quot;:&quot;renderedFields,names,schema,transitions,operations,editmeta,changelog,versionedRepresentations&quot;,&quot;id&quot;:&quot;10001&quot;,&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/issue/10001&quot;,&quot;key&quot;:&quot;TS-2&quot;,&quot;fields&quot;:{&quot;issuetype&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/issuetype/10002&quot;,&quot;id&quot;:&quot;10002&quot;,&quot;description&quot;:&quot;This Issue Type is used to create Zephyr Test within Jira.&quot;,&quot;iconUrl&quot;:&quot;http://192.168.99.100:32768/download/resources/com.thed.zephyr.je/images/icons/ico_zephyr_issuetype.png&quot;,&quot;name&quot;:&quot;Test&quot;,&quot;subtask&quot;:false},&quot;components&quot;:[],&quot;timespent&quot;:null,&quot;timeoriginalestimate&quot;:null,&quot;description&quot;:null,&quot;project&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/project/10000&quot;,&quot;id&quot;:&quot;10000&quot;,&quot;key&quot;:&quot;TS&quot;,&quot;name&quot;:&quot;TS&quot;,&quot;avatarUrls&quot;:{&quot;48x48&quot;:&quot;http://192.168.99.100:32768/secure/projectavatar?avatarId=10324&quot;,&quot;24x24&quot;:&quot;http://192.168.99.100:32768/secure/projectavatar?size=small&amp;avatarId=10324&quot;,&quot;16x16&quot;:&quot;http://192.168.99.100:32768/secure/projectavatar?size=xsmall&amp;avatarId=10324&quot;,&quot;32x32&quot;:&quot;http://192.168.99.100:32768/secure/projectavatar?size=medium&amp;avatarId=10324&quot;}},&quot;fixVersions&quot;:[],&quot;aggregatetimespent&quot;:null,&quot;resolution&quot;:null,&quot;timetracking&quot;:{},&quot;attachment&quot;:[],&quot;aggregatetimeestimate&quot;:null,&quot;resolutiondate&quot;:null,&quot;workratio&quot;:-1,&quot;summary&quot;:&quot;USSD : Successful R2R&quot;,&quot;lastViewed&quot;:&quot;2016-05-30T11:28:39.619+0000&quot;,&quot;watches&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/issue/TS-2/watchers&quot;,&quot;watchCount&quot;:1,&quot;isWatching&quot;:true},&quot;creator&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/user?username=tahreem.sadiq&quot;,&quot;name&quot;:&quot;tahreem.sadiq&quot;,&quot;key&quot;:&quot;tahreem.sadiq&quot;,&quot;emailAddress&quot;:&quot;tahreem.sadiq@seamless.se&quot;,&quot;avatarUrls&quot;:{&quot;48x48&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?avatarId=10349&quot;,&quot;24x24&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=small&amp;avatarId=10349&quot;,&quot;16x16&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=xsmall&amp;avatarId=10349&quot;,&quot;32x32&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=medium&amp;avatarId=10349&quot;},&quot;displayName&quot;:&quot;tahreem.sadiq@seamless.se&quot;,&quot;active&quot;:true,&quot;timeZone&quot;:&quot;Etc/UTC&quot;},&quot;subtasks&quot;:[],&quot;created&quot;:&quot;2016-05-09T12:23:59.250+0000&quot;,&quot;reporter&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/user?username=tahreem.sadiq&quot;,&quot;name&quot;:&quot;tahreem.sadiq&quot;,&quot;key&quot;:&quot;tahreem.sadiq&quot;,&quot;emailAddress&quot;:&quot;tahreem.sadiq@seamless.se&quot;,&quot;avatarUrls&quot;:{&quot;48x48&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?avatarId=10349&quot;,&quot;24x24&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=small&amp;avatarId=10349&quot;,&quot;16x16&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=xsmall&amp;avatarId=10349&quot;,&quot;32x32&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=medium&amp;avatarId=10349&quot;},&quot;displayName&quot;:&quot;tahreem.sadiq@seamless.se&quot;,&quot;active&quot;:true,&quot;timeZone&quot;:&quot;Etc/UTC&quot;},&quot;customfield_10000&quot;:null,&quot;aggregateprogress&quot;:{&quot;progress&quot;:0,&quot;total&quot;:0},&quot;priority&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/priority/4&quot;,&quot;iconUrl&quot;:&quot;http://192.168.99.100:32768/images/icons/priorities/low.svg&quot;,&quot;name&quot;:&quot;Low&quot;,&quot;id&quot;:&quot;4&quot;},&quot;labels&quot;:[],&quot;environment&quot;:null,&quot;timeestimate&quot;:null,&quot;aggregatetimeoriginalestimate&quot;:null,&quot;versions&quot;:[],&quot;duedate&quot;:null,&quot;progress&quot;:{&quot;progress&quot;:0,&quot;total&quot;:0},&quot;comment&quot;:{&quot;startAt&quot;:0,&quot;maxResults&quot;:0,&quot;total&quot;:0,&quot;comments&quot;:[]},&quot;issuelinks&quot;:[],&quot;votes&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/issue/TS-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;worklog&quot;:{&quot;startAt&quot;:0,&quot;maxResults&quot;:20,&quot;total&quot;:0,&quot;worklogs&quot;:[]},&quot;assignee&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/user?username=tahreem.sadiq&quot;,&quot;name&quot;:&quot;tahreem.sadiq&quot;,&quot;key&quot;:&quot;tahreem.sadiq&quot;,&quot;emailAddress&quot;:&quot;tahreem.sadiq@seamless.se&quot;,&quot;avatarUrls&quot;:{&quot;48x48&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?avatarId=10349&quot;,&quot;24x24&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=small&amp;avatarId=10349&quot;,&quot;16x16&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=xsmall&amp;avatarId=10349&quot;,&quot;32x32&quot;:&quot;http://192.168.99.100:32768/secure/useravatar?size=medium&amp;avatarId=10349&quot;},&quot;displayName&quot;:&quot;tahreem.sadiq@seamless.se&quot;,&quot;active&quot;:true,&quot;timeZone&quot;:&quot;Etc/UTC&quot;},&quot;updated&quot;:&quot;2016-05-09T13:15:04.458+0000&quot;,&quot;status&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/status/10000&quot;,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;http://192.168.99.100:32768/images/icons/status_generic.gif&quot;,&quot;name&quot;:&quot;To Do&quot;,&quot;id&quot;:&quot;10000&quot;,&quot;statusCategory&quot;:{&quot;self&quot;:&quot;http://192.168.99.100:32768/rest/api/2/statuscategory/2&quot;,&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;name&quot;:&quot;To Do&quot;}}}}
+URL GET . . http://192.168.99.100:32768/flex/services/rest/latest/execution/2
+~~~~~~~~~~~~~~~~~~~~
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: User preforms to integrate with zephyr" name="Scenario: User preforms to integrate with zephyr" time="0.01">
+    <error message="Server returned HTTP response code: 403 for URL: http://192.168.99.100:32768/flex/services/rest/latest/execution/2" type="java.lang.RuntimeException">java.lang.RuntimeException: Server returned HTTP response code: 403 for URL: http://192.168.99.100:32768/flex/services/rest/latest/execution/2
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.AuthGet(AtlassianIntegration.java:131)
+	at com.seamless.ers.qa.cucumber.ImplementationClasses.USSD.AtlassianIntegration.hitCurl(AtlassianIntegration.java:35)
+	at ✽.When I Perform to integrate my automation with zephyr(src/test/resources/com/resources/features/ers-std/USSD/AtlassianIntegration.feature:5)
+</error>
+  </testcase>
+</testsuite>

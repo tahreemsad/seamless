@@ -1,0 +1,33 @@
+Feature:Add a reseller with proper credentials and User of Reseller Admin type
+
+Scenario:User login to webadmin and Add reseller
+Given I browse to the WebAdmin page
+And I enter root in the WebAdminLoginUserNameField field
+And I enter root in the WebAdminLoginPasswordField field
+And User clicks on the button WebAdminLoginButton
+And System sleeps for 1000 seconds
+And User clicks on the button WebAdminMainMenuAdmin
+And System sleeps for 1000 seconds
+And User clicks on the button WebAdminMainMenuAdminResellers
+And System sleeps for 1000 seconds
+And User clicks on the button WebAdminMainMenuAdminResellersAddResellers
+And System sleeps for 1000 seconds
+And I select Reseller from dropdown WebAdminMainMenuAdminResellersAddResellersTypeDropDown
+And User clicks on the button WebAdminMainMenuAdminResellersAddResellersAddResellerButton
+And I enter TestReseller in the WebAdminMainMenuAdminResellersAddResellersResellerIDField field
+And I enter subdealer-1-1 in the WebAdminMainMenuAdminResellersAddResellersParentResellerIDField field
+And I enter dist-1 in the WebAdminMainMenuAdminResellersAddResellersResellerNameField field
+And I enter distributor-1 in the WebAdminMainMenuAdminResellersAddResellersResellerJuradicalNameField field
+And User clicks on the button WebAdminMainMenuAdminResellersAddResellersResellerNextButton
+And System sleeps for 1000 seconds
+And I select Reseller Account from dropdown WebAdminMainMenuAdminResellersAddResellersResellerNextButtonResellerAccountDropdown
+And User clicks on the button WebAdminMainMenuAdminResellersAddResellersResellerNextButtonResellerAccountRegistration
+And User clicks on the button WebAdminMainMenuAdminResellersAddResellersResellerNextButtonResellerAccountRegistrationNextButton
+And I select Standard from dropdown WebAdminMainMenuAdminResellersAddResellersResellerNextButtonProductRangeDropdown
+And I select Standard from dropdown WebAdminMainMenuAdminResellersAddResellersResellerNextButtonReceiptTemplateDropdown
+And User clicks on the button WebAdminMainMenuAdminResellersAddResellersResellerNextButtonNextButton
+And I enter 20132012 in the WebAdminMainMenuAdminResellersAddResellersResellerNextButtonNextButtonUserPasswordField field
+And I select Reseller admin from dropdown WebAdminMainMenuAdminResellersAddResellersResellerNextButtonNextButtonUserResellerRoleDropdown
+And System sleeps for 2000 seconds
+And User clicks on the button WebAdminMainMenuAdminResellersAddResellersResellerNextButtonNextButtonUserAddResellerButton
+Then I verify the error text WebAdminMainMenuAdminResellersAddResellersSuccessfullyAddedResellerMessage on the page

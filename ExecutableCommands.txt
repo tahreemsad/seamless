@@ -1,0 +1,44 @@
+CI-MTN (Ivory Cost)
+
+CI-MTN-USSD
+-----
+mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ci_mtn" -Dcucumber.options="--tags @ci-mtn-LastTransaction-USSD,@CheckResellerbalance-USSD-ci-mtn,@ci-mtn-P2P-USSD,@ci-mtn-PinChange-USSD,@ci-mtn-R2R-USSD,@ci-mtn-R2S-USSD,@ci-mtn-Subscriber-registration-USSD,@ci-mtn-viewussdmenu,@RequestActivationCode-USSD-ci-mtn"
+
+CI-MTN-WebAdmin
+-----
+Positive: mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ci_mtn" -Dcucumber.options="--tags @Correct-Login-WebAdmin-ci-mtn,@ci-mtn-searchReseller,@SearchTransaction-WebAdmin-ci-mtn,@SupportTransfer-webadmin-ci-mtn"
+Negative: mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ci_mtn" -Dcucumber.options="--tags @InCorrect-Login-WebAdmin-ci-mtn"
+
+CI-MTN-SMS
+-----
+
+CI-MTN-AgentPortal
+-----
+Positive: mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ci_mtn" -Dcucumber.options="--tags @login-AgenPortal-ci-mtn,@R2R-AgentPortal-ci-mtn,@R2S-AgentPortal-ci-mtn,@BulkTopup-AgentPortal-ci-mtn"
+Negative: mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ci_mtn" -Dcucumber.options="--tags @NotAllowedTrans-AgentPortal-ci-mtn"
+
+CI-MTN-STK
+-----
+############################## CI-MTN Finished ############################## 
+
+Ng-Glo (GLO Nigeria)
+
+Ng-Glo-USSD
+-----
+mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ng_glo" -Dcucumber.options="--tags @ng-glo-viewussdmenu,@ng-glo-R2S-USSD,@ng-glo-CreateReseller-USSD"
+
+Ng-Glo-WebAdmin
+-----
+mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ng_glo" -Dcucumber.options="--tags @BatchR2R-WebAdmin-ng_glo"
+
+Ng-Glo-AgentPortal
+-----
+mvn test -DtargetEnvironment="10.10.4.67" -Dcustomer="ng_glo" -Dcucumber.options="--tags @BulkTransfer-AgentPortal-ng_glo”
+
+Ng-Glo-STK
+-----
+
+Ng-Glo-SMS
+-----
+
+############################## Ng-Glo Finished ############################## 
